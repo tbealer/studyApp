@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col-xl-offset-5 col-lg-offset-5 col-md-offset-5 col-sm-offset-5 col-xs-offset-5">
+    <h1>Login</h1>
+    <br><br>
+    <div>
+      <form class="form" ng-submit="login()">
+        <div class="form-group">
+          <label>Email</label><br>
+          <input ng-model="member.email"  type="email" required>
+        </div>
+        <div class="form-group">
+          <label>Password</label><br>
+          <input ng-model="member.password"  type="password" required>
+        </div>
+        <button type="submit" class="btn btn-success">Login</button>
+      </form>
+    <div>
+    <br>
+    <p>Need an account? Register <a href="#/register">here</a>.</p>
+  </div>
+</div>
