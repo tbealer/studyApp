@@ -24,11 +24,11 @@ routeChange.$inject = ["$rootScope","$location", "$window", "authService"];
       restricted: false,
       preventLoggedIn: true
     })
-    .when('/edit', {
-      templateUrl: 'templates/edit.html',
-      controller: 'editMemberController',
+    .when('/newdeck', {
+      templateUrl: 'templates/newdeck.html',
+      controller: 'newdeckController',
       restricted: false,
-      preventLoggedIn: true
+      preventLoggedIn: false
     })
     .when('/logout', {
       restricted: false,
